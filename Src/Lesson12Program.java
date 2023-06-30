@@ -6,6 +6,11 @@ import EnumHelper.Topic;
 public class Lesson12Program {
     public static void main(String[] args) {
 
+        String name = "Andrey";
+        System.out.println(name);
+        System.out.println(name.toUpperCase());
+        System.out.println(name.toLowerCase());
+
         Operation op = Operation.SUM;
         System.out.println(op.action(10, 4));   // 14
         System.out.println(op);   // SUM
